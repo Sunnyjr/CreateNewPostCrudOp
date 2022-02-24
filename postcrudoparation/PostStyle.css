@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+head{
+    height: 100%;
+    width: 100%;
+}
+body{ 
+    height: 100%;
+    width: 100%;
+}
+
+.mainform{
+  
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;   
+    
+}
+
+#heading{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#form{ 
+    padding: 0px 90px 0px 90px;
+}
+.d-grid{
+
+    margin-top:20px
+}
