@@ -79,12 +79,6 @@ function resetFeild() {  //s9
 //delete card //s13
 function deleteCard(ind) { //s14
 
-    // var cardbody = document.getElementById("cardbody");
-    // cardbody.parentElement.removeChild(cardbody); //it will delete all row n cards   
-    //eleteIndex.splice(0,1)
-    // delete postList[ind]
-    // postList.remove(postList[ind]);
-    // postList[ind].remove()
     postList.splice(ind, 1) //s14
     console.log("delete", postList)  //it will delete the object.
     DisplayPost();                  //it will update the array.
@@ -101,10 +95,10 @@ function editCard(index) { //s15
 }
 
 
-//s16 - i have to edit exact card and ssave it
-//how to give card colr one is white and another is gray dinamically
+//s16 - i have to edit exact card and save it
+//how to give card color one is white and another is gray dinamically
 // variable rahenga jiska color white rahenga by default
-// s19 - card hase to change color alternately. background: ${(i % 2 == 0) ? 'white' : 'lightgray' }. index k andar number hay to i k sath operation karenge. postList[i] object lera tha .
+// s19 - card hase to change color alternately. background: ${(i % 2 == 0) ? 'white' : 'lightgray' }. index k andar number hay to i k sath operation karenge.not with postList[i].
 
 
 
